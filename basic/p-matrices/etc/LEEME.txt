@@ -1,0 +1,55 @@
+Practica P-ARR
+
+Alumno: Xiao Yang
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica:
+
+Respuestas a la preguntas:
+
+	*Apartado 030102 Ejercicio 2
+	MOSTRADO:
+{ 
+     [java]  1, 2, 3, 4, 5, 6, 7, 8, 9,
+	java.lang.reflect.InvocationTargetException
+     [java] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)...etc
+
+	- array.Enteros.length =10.
+	*El bucle for empieza desde 1 y termina en 10. Como el matriz tiene la posicion de 0 a 9. Y el bucle for esta pidiendo la valor del posicion 10. Por lo tanto aparece error(No lo tiene).
+
+	*Apartado 030202 Ejercicio 1
+	MOSTRADO:
+	
+	<copiarOpcion1> - inicio
+
+	es.unileon.prg.tema7.Persona@3fee733d
+	es.unileon.prg.tema7.Persona@5acf9800
+
+	<copiarOpcion1> - tras realizar la modificacion 
+	
+	es.unileon.prg.tema7.Persona@4617c264
+	es.unileon.prg.tema7.Persona@5acf9800
+	
+	<copiarOpcion1> - fin
+	
+	*La copia por referencia implica trabajar sobre las mismas posiciones de memoria,tanto modificar una u otra, cambian la originar y la copia a la vez.
+
+	*Apartado 030202 Ejercicio 2
+	
+	Copia[] esta asignando el valor de la personas[] , pero no tiene el mismo posicion de memoria que la personas[ ].
+	
+	*Apartado 030202 Ejercicio 3
+	
+	recibirParametros(personas);  , en el primer lugar, recibeParametros ha igualado con pasaParametros, y tienen la misma posicion de memoria.
+	pero luego tras de hacer la modificacion oersinas[0] , se trabaja en la posicion de memoria distinta.
+	
+	
+	
+	
+	
+	
+	
+	
+	

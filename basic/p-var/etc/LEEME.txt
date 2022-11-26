@@ -1,0 +1,70 @@
+Practica P-VAR
+
+Alumno:Xiao Yang
+
+Horas dedicadas:9
+
+Problemas surgidos al realizar la practica:
+
+	Problemas de compilar..Que deberia compilar juntas.
+
+	No me deja de acceder a esa pagina para terminar el Apartado 030104 el ejercicio 2 y 3..
+	http://www.cs.grin.edu/~rebelsky/Espresso/Readings/binary.html	(Resuelto)
+
+
+
+Respuestas a la preguntas:
+	Preguntando a los compañeros y fijar en el foro de la asignatura y busando en el youtube.
+
+
+		*Ejercicio 4  030101
+
+2.8 - 1.5 = 1.2999999999999998
+
+En este caso porque los dos variable tienen el Type doble, Que dejaba el resultado en decimal. 
+
+		*Ejercicio 5  030101
+
+2.8 - 1.5 = 1.3
+
+En este caso porque el Type de los variables es el BigDecimal, que se aproxima el decimal al decimal mas grandes.
+
+
+		*Ejercicio 2  030104
+	
+	 varLong=35000L;
+	 varByte=(byte)varLong;
+	 varshort=(short)varLong;
+	 varInt=(int)varLong;
+	//Realiza las conversiones correspondiente
+
+		*Ejercicio 3 030104
+
+	//conversiones.
+
+		*Ejercicio 4 030104
+
+
+	fGigante = (float)dGigante; Que dGigante es demasiado grande para float
+	
+ 	byte b = (byte)130; Debe pasar byte a short
+
+	short s = (short)32770; pasar short a int, (Short < 32767)
+
+	int i = (int)2147483650l; Pasar int a long(int <2147483647)
+
+	float f = 1.3e22; Deberia pasar float a double,
+	Porque el numero 1.3e22 es superior al numero maximo que puede tener el Type float
+
+		*Ejercicio 10 030201
+
+	// Como el resultado da 1, cadena es lexicograficamente mayor que el otraCadena.
+
+		*Ejercicio 01 030202
+	
+	// length=16,capacity=32
+	// length solo muestra numeros que ocupan los caracteres que hay en la cadena. Sin embargo capacity =32 , es la suma de length y 16(el numero que ocupa la clase String.)
+
+		*Ejercicio 01 030293
+
+	// Esta relacionando dos ficheros (Apartado030203.java con el Alumno.java) mediante StringBuffer con el comando append . Por lo tanto la salida esta cambiado por los dos ficheros y no una.

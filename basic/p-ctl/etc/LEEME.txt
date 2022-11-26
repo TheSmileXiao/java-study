@@ -1,0 +1,28 @@
+Practica P-CTL
+
+Alumno:Xiao Yang
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica:
+
+Respuestas a la preguntas:
+
+
+*	Apartado 030101 Ejercicio 04:
+	
+	La primera es falsa,porque ! es la negacion, n2>n1 es true, pero !(n2>n1) es false.
+	La segunda es verdadera, false || la segunda condicion al !(n1>n2) sale true.  
+	La tercera es falsa, n1>=n2 &&(AND) algo ,n1=5 n2=8 es false. 
+
+*	Apartado 030101 Ejercicio 09:
+	N1 y N2 son distintos porque esta comparando su memoria de posicion y no el numero.
+
+*	Apartado 030101 Ejercicio 10:
+	Estan conparando la posicion de la memoria,por eso dan falso.
+	Al Modificar el metodo de comparacion( this.valor==n.getValor), para que compare el numero y 
+	no la memoria, el resultado da true
+
+*	Apartado 030102 Ejercicio 2:
+	Error de compilar, porque no esta bien declarando el tipo de los valores.
+	
